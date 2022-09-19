@@ -10,6 +10,10 @@
   </head>
 
   <body>
+    <header>
+      <%= link_to t('views.common.locale.ja'), '/books/change_locale/ja' %>
+      <%= link_to t('views.common.locale.en'), '/books/change_locale/en' %>
+    </header>
     <%= yield %>
   </body>
 </html>
