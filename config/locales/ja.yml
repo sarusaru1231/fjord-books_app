@@ -206,12 +206,16 @@ ja:
       short: "%m/%d %H:%M"
     pm: 午後
   views:
+    header:
+      menu: メニュー
+      sign_in_as: "ログイン中：%{email}"
     common:
       show: 詳細
       edit: 編集
       destroy: 削除
       new: 新規作成
       back: 戻る
+      sign_out: ログアウト
       delete_confirm: よろしいですか？
       title_new: "%{name}の新規作成"
       title_edit: "%{name}の編集"

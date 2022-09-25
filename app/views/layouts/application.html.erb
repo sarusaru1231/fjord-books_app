@@ -10,6 +10,7 @@
   </head>
 
   <body>
-    <%= yield %>
+  <%= render partial: 'layouts/signed_in_user_header' if user_signed_in? %>
+  <%= yield %>
   </body>
 </html>
